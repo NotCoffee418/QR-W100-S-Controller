@@ -1,0 +1,34 @@
+﻿<Window x:Class="QRW100S_Controller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Wpf="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf"
+        Title="VLC.NET WPF Media Player Example" Height="400" Width="650">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <Wpf:VlcControl x:Name="myVlcControl" />
+
+        <Grid Grid.Row="0">
+            <Grid.Background>
+                <VisualBrush Stretch="Uniform">
+                    <VisualBrush.Visual>
+                        <Image Source="{Binding ElementName=myVlcControl, Path=VideoSource}" />
+                    </VisualBrush.Visual>
+                </VisualBrush >
+            </Grid.Background>
+            <TextBlock Name="textBlockOpen"  TextAlignment="Center" FontSize="18">Please, open a media file.</TextBlock>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Height="30" Orientation="Horizontal" VerticalAlignment="Bottom" >
+            <Button Width="102" Name="buttonRtsp" Click="buttonRtsp_Click"  >Open Rtsp</Button>
+            <TextBlock Margin="5,2" Name="textBlock"></TextBlock>
+            <Button Name="deviceButton" Content="Enable Device" Width="122" Click="Button_Click"/>
+            <Button Content="Other command" Width="110" Click="Button_Click_1"/>
+            <Slider x:Name="slider1" Width="216" Minimum="1" Maximum="80" ValueChanged="Slider_ValueChanged" TickFrequency="0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

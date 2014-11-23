@@ -1,0 +1,9 @@
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.XML
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.pdb
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.Interops.pdb
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\bin\Debug\Vlc.DotNet.Core.Interops.xml
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\obj\Debug\Vlc.DotNet.Core.csprojResolveAssemblyReference.cache
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\obj\Debug\Vlc.DotNet.Core.dll
+C:\Users\Naruto Uzumaki\Dropbox\Code\In Development\QRW100S_Controller\lib\vlc\Vlc.DotNet.Core\obj\Debug\Vlc.DotNet.Core.pdb
